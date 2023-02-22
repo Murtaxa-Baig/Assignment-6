@@ -1,0 +1,41 @@
+.body_div {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.first_section {
+    background-color: #FF9F00;
+    height: 650px;
+}
+
+.main_heading {
+    color: #ffff;
+    margin-top: 130px;
+    font-family: Source Sans Pro;
+    font-size: 80px;
+}
+
+.sub_div_firstsection {
+    width: 90%;
+    height: 160px;
+    background-color: #ffff;
+    border-radius: 5px;
+}
+.btn_div{
+margin-top: 20px;
+margin-left: 20px;
+}
+.delivery_btn {
+    color: #FF9F00;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(244, 223, 226);
+}
+
+.pickup_btn {
+    font-size: 20px;
+    border: none;
+    color: #757575;
+    
+}
