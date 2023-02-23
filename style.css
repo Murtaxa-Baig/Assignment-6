@@ -6,7 +6,7 @@
 
 .first_section {
     background-color: #FF9F00;
-    height: 650px;
+    height: auto;
 }
 
 .main_heading {
@@ -18,24 +18,72 @@
 
 .sub_div_firstsection {
     width: 90%;
-    height: 160px;
+    height: auto;
     background-color: #ffff;
     border-radius: 5px;
 }
-.btn_div{
-margin-top: 20px;
-margin-left: 20px;
+
+.btn_div {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+
 }
+
 .delivery_btn {
     color: #FF9F00;
     font-size: 20px;
     border: none;
     background-color: rgb(244, 223, 226);
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 7px;
+}
+
+.icon {
+    margin: 2px;
 }
 
 .pickup_btn {
     font-size: 20px;
     border: none;
     color: #757575;
-    
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 7px;
+}
+
+.findfood_btn {
+    color: #ffff;
+    background-color: #FF7A7A;
+    border: none;
+    margin-left: 20px;
+    width: auto;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.first_img {
+    height: 450px;
+    width: 500px;
+}
+
+.input_address {
+
+    height: 40px;
+    border: none;
+    width: 75%;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+
+    /* image in input field */
+    background-image: url(./images/input_location.svg);
+    background-repeat: no-repeat;
+    text-indent: 20px;
 }
