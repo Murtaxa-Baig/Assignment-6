@@ -237,7 +237,7 @@
     padding-left: 10px;
     padding-top: 10px;
     display: flex;
-    
+
 
 }
 
@@ -295,10 +295,12 @@
     margin-left: 10px;
 
 }
-.card3_btn_disc{
+
+.card3_btn_disc {
     font-size: 16px;
 }
-.card3_btn_disc_p{
+
+.card3_btn_disc_p {
     padding: 0px;
     margin: 0px;
 }
@@ -348,6 +350,7 @@
     display: flex;
 
 }
+
 .card3_4 {
     background-image: url(./images/c3i4.png);
     background-repeat: no-repeat;
@@ -360,6 +363,7 @@
     display: flex;
 
 }
+
 .card3_5 {
     background-image: url(./images/c3i5.png);
     background-repeat: no-repeat;
@@ -372,6 +376,7 @@
     display: flex;
 
 }
+
 .card3_6 {
     background-image: url(./images/c3i6.png);
     background-repeat: no-repeat;
@@ -384,6 +389,7 @@
     display: flex;
 
 }
+
 .card3_7 {
     background-image: url(./images/c3i7.png);
     background-repeat: no-repeat;
@@ -396,6 +402,7 @@
     display: flex;
 
 }
+
 .card3_8 {
     background-image: url(./images/c3i8.png);
     background-repeat: no-repeat;
@@ -408,43 +415,49 @@
     display: flex;
 
 }
-.view_btn{
+
+.view_btn {
     color: #ffff;
     background-color: #FFB30E;
     border-radius: 5px;
     border: none;
 }
-.view_btn_div{
+
+.view_btn_div {
     margin: 120px 0px 40px 0px;
     text-align: center;
 }
-.card4_row{
+
+.card4_row {
     display: flex;
     justify-content: space-between;
     text-align: center;
     margin-bottom: 50px;
 }
-.card4_img{
+
+.card4_img {
     height: 100%;
     width: 100%;
     border-radius: 50%;
     object-fit: cover;
 
 }
-.card4_div{
+
+.card4_div {
     height: 200px;
     width: 200px;
 
     text-align: center;
 }
-.card4_bgcolor{
+
+.card4_bgcolor {
     background: #FEFAF1;
     padding-top: 40px;
 
 }
 
 
-.arrow_btn{
+.arrow_btn {
     height: 50px;
     width: 50px;
     color: #ffff;
@@ -455,30 +468,131 @@
     border: none;
     margin: 0px 2px;
 }
-.card4_text{
+
+.card4_text {
     color: #FF9F00;
     font-size: 10px;
 }
-.card4_main{
+
+.card4_main {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
-.card4_row1{
+
+.card4_row1 {
     display: flex;
     align-items: center;
 }
-.card4row1{
-margin-bottom: 60px;
+
+.card4row1 {
+    margin-bottom: 60px;
 }
-.box_fluid{
+
+.box_fluid {
     background-color: #FEEFD0;
 
 }
-.box_fluid_div{
+
+.box_fluid_div {
     background-color: #ffff;
     width: 70%;
     height: auto;
     border-radius: 15px;
+}
+
+.card5_row {
+    margin: 40px auto;
+}
+
+.c5_subdiv1 {
+    width: 100%;
+    height: 400px;
+    padding: 60px 30px 30px 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-right: -23px;
+}
+
+.heading_color {
+    color: #FF9F00;
+}
+
+.card5_btn1 {
+    color: #ffff;
+    background-color: #FF9F00;
+    height: 50px;
+    width: 95%;
+    border: none;
+    border-radius: 7px;
+    margin-top: 90px;
+}
+
+.card5_img1 {
+    height: 400px;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: -24px;
+}
+
+.c5_subdiv2 {
+    width: 100%;
+    height: 400px;
+    padding: 60px 30px 30px 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: -24px;
+}
+
+.card5_img2 {
+    height: 400px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-right: -23px;
+}
+
+.card5_btn2 {
+    color: #ffff;
+    background-color: #FF9F00;
+    height: 50px;
+    width: 95%;
+    border: none;
+    border-radius: 7px;
+    margin-top: 70px;
+}
+
+.bg_img {
+    background-image: url(./images/bg_img.png);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+
+
+}
+
+.heading {
+    color: #ffff;
+    padding-top: 60px;
+
+}
+
+.text_center {
+    text-align: center;
+}
+
+.last_btn {
+    background: linear-gradient(93.41deg, #F17228 -5.63%, #F15E28 100.8%);
+    color: #ffff;
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 7px;
+    margin-top: 50px;
 }
