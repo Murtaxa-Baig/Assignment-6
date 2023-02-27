@@ -672,7 +672,8 @@
     background-repeat: no-repeat;
     text-indent: 20px;
 }
-.last_btn1{
+
+.last_btn1 {
     color: #ffff;
     background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
     border: none;
@@ -680,8 +681,34 @@
     border-radius: 5px;
 
 }
-.last_hr{
+
+.last_hr {
     height: 2px;
     color: #424242;
     margin-top: 50px;
+}
+
+.simple {
+    background-color: #FEEFD0;
+    width: 100%;
+    height: auto;
+}
+
+.simple_heading {
+    color: #FB3C00;
+
+
+}
+
+.hr_img {
+    height: 70px;
+}
+
+.simple_row {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
