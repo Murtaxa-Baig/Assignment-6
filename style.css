@@ -703,6 +703,10 @@
 .hr_img {
     height: 70px;
 }
+.large_img{
+    height: 500px;
+    width: 100%;
+}
 
 .simple_row {
     margin-top: 70px;
