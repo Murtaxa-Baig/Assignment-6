@@ -104,9 +104,6 @@
     object-fit: cover;
 }
 
-
-
-
 .c1btn {
     color: #F17228;
     background: #F1722833;
@@ -677,4 +674,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.footer_line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.last_div{
+    text-align: end;
 }
