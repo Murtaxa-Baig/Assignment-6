@@ -97,46 +97,15 @@
 }
 
 .c1i1 {
-    background-image: url(./images/c1i1.png);
-    background-repeat: no-repeat;
-    width: 250px;
+    
     height: 250px;
+    width: 100%;
     border-radius: 10px;
-
+    object-fit: cover;
 }
 
-.c1i2 {
-    background-image: url(./images/c1i2.png);
-    background-repeat: no-repeat;
-    width: 250px;
-    ;
-    height: 250px;
-    border-radius: 10px;
 
-}
 
-.c1i3 {
-    background-image: url(./images/c1i3.png);
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px;
-    border-radius: 10px;
-
-}
-
-.c1i4 {
-    background-image: url(./images/c1i4.png);
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px;
-    border-radius: 10px;
-
-}
-
-.c1heading {
-    margin-top: 260px;
-    margin-left: -10px;
-}
 
 .c1btn {
     color: #F17228;
@@ -144,7 +113,6 @@
     padding: 4px 8px;
     border: none;
     border-radius: 7px;
-    margin-left: -10px;
 
 }
 
@@ -152,7 +120,7 @@
     background: rgb(244, 223, 226);
     height: auto;
     width: 100%;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .box2_heading {
@@ -190,19 +158,13 @@
     margin: 50px auto;
 }
 
-.left_right_icon {
-    color: #F17228;
-    background-color: #F17228;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
 
-}
 
 .card2_img {
     height: 200px;
-    width: 200px;
+    width: 100%;
     border-radius: 10px;
+
 }
 
 .card2_div {
