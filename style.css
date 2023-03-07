@@ -48,10 +48,12 @@
     padding: 0px;
     margin: 0px;
 }
-.navbar_search{
+
+.navbar_search {
     height: 16px;
     width: 16px;
 }
+
 .navbar_btn {
     color: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
     display: flex;
@@ -67,7 +69,8 @@
 
 
 }
-.btn_img{
+
+.btn_img {
     height: 16px;
     width: 16px;
 }
@@ -165,11 +168,87 @@
 }
 
 .c1i1 {
-
-    height: 250px;
+    background-image: url(./images/c1i1.png);
+    height: 300px;
     width: 100%;
     border-radius: 10px;
     object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.c1i2 {
+    background-image: url(./images/c1i2.png);
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.c1i3 {
+    background-image: url(./images/c1i3.png);
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.c1i4 {
+    background-image: url(./images/c1i4.png);
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.number {
+    font-size: 65px;
+    color: #ffff;
+    padding: 0px;
+    margin: 0px;
+}
+
+.percentage {
+    color: #ffff;
+    font-size: 35px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.off {
+
+    color: #ffff;
+    font-size: 22px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: -15px;
+}
+.display_property1{
+    display: flex;
+    align-items: center;
+    background-color:  #FFB30E;
+    width: 120px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
 }
 
 .c1btn {
