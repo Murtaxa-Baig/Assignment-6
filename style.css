@@ -328,7 +328,7 @@
 }
 
 .card3_row {
-    margin-bottom: 80px;
+    margin-bottom: 120px;
     display: flex;
     justify-content: space-between;
 }
@@ -858,4 +858,29 @@
 
 a:hover {
     color: green;
+}
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 768px){
+    .navbar{
+        height: auto;
+    }
+    .first_img{
+        height: 300px;
+        width: 300px;
+    }
+    /* .card_one{
+        text-align: center;
+    }
+    .c1i1{
+        margin: 0px auto;
+    } */
+    .card_two_col{
+        margin: 10px auto;
+    }
+    .card3_col{
+        /* margin: 30px auto; */
+    }
 }
