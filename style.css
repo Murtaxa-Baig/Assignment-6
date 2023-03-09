@@ -149,15 +149,17 @@
     width: 75%;
     border-radius: 5px;
     background-color: #F5F5F5;
+    /* image in input field */
+    background-image: url(./images/input_location.svg);
+    background-size: 16px;
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+    text-indent: 20px;
     margin-left: 20px;
     margin-bottom: 15px;
     padding-left: 10px;
-
-    /* image in input field */
-    background-image: url(./images/input_location.svg);
-    background-repeat: no-repeat;
-    text-indent: 20px;
 }
+
 
 .card_one {
     margin-top: 50px;
@@ -165,6 +167,10 @@
     justify-content: space-between;
     width: 100%;
     height: auto;
+    
+}
+.card3{
+    text-align: center;
 }
 
 .c1i1 {
@@ -201,12 +207,12 @@
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: auto;
-    display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
 .c1i4 {
+    display: flex;
     background-image: url(./images/c1i4.png);
     height: 300px;
     width: 100%;
@@ -241,14 +247,15 @@
     margin: 0px;
     margin-top: -15px;
 }
-.display_property1{
+
+.display_property1 {
     display: flex;
     align-items: center;
-    background-color:  #FFB30E;
+    background-color: #FFB30E;
     width: 120px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    
+
 }
 
 .c1btn {
@@ -776,6 +783,8 @@
     /* image in input field */
     background-image: url(./images/envelope.svg);
     background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 10px;
     text-indent: 20px;
 }
 
@@ -863,24 +872,53 @@ a:hover {
 
 /* MEDIA QUERY */
 
-@media only screen and (max-width: 768px){
-    .navbar{
+@media only screen and (max-width: 768px) {
+    .navbar {
         height: auto;
     }
-    .first_img{
+
+    .first_img {
         height: 300px;
         width: 300px;
     }
-    /* .card_one{
-        text-align: center;
+
+    .card_one {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        padding-left: 75px;
+        width: 100%;
     }
     .c1i1{
-        margin: 0px auto;
-    } */
-    .card_two_col{
+        margin: 10px auto ;
+    }
+    .c1i2{
+        margin: 10px auto ;
+    }
+    .c1i3{
+        margin: 10px auto ;
+    }
+    .c1i4{
+        margin: 10px auto ;
+    }
+    .card_two_col {
         margin: 10px auto;
     }
-    .card3_col{
-        /* margin: 30px auto; */
+    .arrow_btn{
+        display: none;
     }
+    .hr_img{
+        display: none;
+    }
+    .card3_row{
+        margin-bottom: 20px;
+    }
+    .card3_col{
+        margin-top: 120px;
+    }
+    .large_img{
+        height: 350px;
+    }
+
+ 
 }
