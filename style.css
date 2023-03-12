@@ -73,6 +73,7 @@
 .btn_img {
     height: 16px;
     width: 16px;
+    padding-right: 5px;
 }
 
 .first_section {
@@ -580,6 +581,9 @@
     border-radius: 50%;
     border: none;
     margin: 0px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card4_text {
@@ -918,6 +922,56 @@ a:hover {
     }
     .large_img{
         height: 350px;
+    }
+    .card5_row{
+        text-align: center;
+    }
+    .c5_subdiv1 {
+        width: 100%;
+        height: 300px;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .card5_btn1{
+        margin-top: 30px;
+    }
+    .card5_img1 {
+        height: 300px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .card5_img2 {
+        height: 300px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-right: 0px;
+        margin-top: -40px;
+    }
+    .c5_subdiv2 {
+        width: 100%;
+        height: 300px;
+        padding: 30px ;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-left: 0px;
+        margin-bottom: -20px;
+        margin-top: 10px;
+    }
+    .br_{
+        display: none;
+    }
+    .card5_btn2{
+        margin-top: 10px;
+    
+    }
+    .findfood_btn{
+        margin-bottom: 10px;
     }
 
  
