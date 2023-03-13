@@ -168,9 +168,10 @@
     justify-content: space-between;
     width: 100%;
     height: auto;
-    
+
 }
-.card3{
+
+.card3 {
     text-align: center;
 }
 
@@ -893,39 +894,51 @@ a:hover {
         padding-left: 75px;
         width: 100%;
     }
-    .c1i1{
-        margin: 10px auto ;
+
+    .c1i1 {
+        margin: 10px auto;
     }
-    .c1i2{
-        margin: 10px auto ;
+
+    .c1i2 {
+        margin: 10px auto;
     }
-    .c1i3{
-        margin: 10px auto ;
+
+    .c1i3 {
+        margin: 10px auto;
     }
-    .c1i4{
-        margin: 10px auto ;
+
+    .c1i4 {
+        margin: 10px auto;
     }
+
     .card_two_col {
         margin: 10px auto;
     }
-    .arrow_btn{
+
+    .arrow_btn {
         display: none;
     }
-    .hr_img{
+
+    .hr_img {
         display: none;
     }
-    .card3_row{
+
+    .card3_row {
         margin-bottom: 20px;
     }
-    .card3_col{
+
+    .card3_col {
         margin-top: 120px;
     }
-    .large_img{
+
+    .large_img {
         height: 350px;
     }
-    .card5_row{
+
+    .card5_row {
         text-align: center;
     }
+
     .c5_subdiv1 {
         width: 100%;
         height: 300px;
@@ -933,9 +946,11 @@ a:hover {
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
-    .card5_btn1{
+
+    .card5_btn1 {
         margin-top: 30px;
     }
+
     .card5_img1 {
         height: 300px;
         width: 100%;
@@ -945,6 +960,7 @@ a:hover {
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
     .card5_img2 {
         height: 300px;
         width: 100%;
@@ -953,26 +969,34 @@ a:hover {
         margin-right: 0px;
         margin-top: -40px;
     }
+
     .c5_subdiv2 {
         width: 100%;
         height: 300px;
-        padding: 30px ;
+        padding: 30px;
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         margin-left: 0px;
         margin-bottom: -20px;
         margin-top: 10px;
     }
-    .br_{
+
+    .br_ {
         display: none;
     }
-    .card5_btn2{
+
+    .card5_btn2 {
         margin-top: 10px;
-    
+
     }
-    .findfood_btn{
+
+    .findfood_btn {
         margin-bottom: 10px;
     }
 
- 
+    .card4_row {
+        justify-content: center;
+    }
+    
+
 }
